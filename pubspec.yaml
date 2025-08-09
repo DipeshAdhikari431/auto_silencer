@@ -9,6 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # for multi language support, this is provided by flutter
+  flutter_localizations:
+    sdk: flutter
+  # for local notifications
+  flutter_local_notifications: ^19.4.0
+  intl: ^0.20.2
+  # for saving schedules locally on device
+  shared_preferences: ^2.5.3
+  # flutter_gen: ^5.11.0
+
+  # for controlling Android ringer mode
+  sound_mode: ^3.1.1
+  path_provider: ^2.1.5
+  flutter_timezone: ^4.1.1
 
 dev_dependencies:
   flutter_test:
